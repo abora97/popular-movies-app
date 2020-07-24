@@ -1,10 +1,10 @@
 # ![Popular Movies](https://raw.githubusercontent.com/fjoglar/popular-movies-app/master/app/src/main/res/mipmap-mdpi/ic_launcher_round.png) Popular Movies App
 
-[![License Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green.svg)]
+![License Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green.svg)
 [![fjoglar twitter](https://img.shields.io/badge/twitter-@Mahmod_Elebiary-blue.svg)](https://twitter.com/Mahmod_Elebiary)
 [![Platform Android](https://img.shields.io/badge/platform-Android-blue.svg)](https://www.android.com)
 
-T
+
 
 ## Features
 
