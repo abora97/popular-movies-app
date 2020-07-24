@@ -12,6 +12,24 @@ buildscript {
     }
 }
 
+ext {
+    picasso = '2.5.2'
+    nineoldandroids = '2.4.0'
+    slider = '1.1.5@aar'
+    scalesubsampling = '3.9.0'
+    simpleratingbar = '0.1.5'
+    adapterRxjava2 = '2.3.0'
+    rxjavaAdapter = '1.0.0'
+    rxandroid = '2.1.1'
+    rxjava = '2.1.9'
+    dexter = '6.0.0'
+    pinview = '1.4.2'
+    gson = '2.8.5'
+    javax = '10.0-b28'
+    multidex = '2.0.1'
+    interceptor = '4.1.1'
+}
+
 allprojects {
     repositories {
         google()
