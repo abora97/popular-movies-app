@@ -1,8 +1,10 @@
-package com.abora.popularmoviesapp;
+package com.abora.popularmoviesapp.ui.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.abora.popularmoviesapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
