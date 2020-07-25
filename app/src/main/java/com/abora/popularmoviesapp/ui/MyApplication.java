@@ -9,7 +9,7 @@ import androidx.multidex.MultiDex;
 import com.abora.popularmoviesapp.util.LocaleHelper;
 
 
-public class MyApp extends Application {
+public class MyApplication extends Application {
 
     private static Application application;
 

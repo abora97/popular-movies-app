@@ -3,7 +3,7 @@ package com.abora.popularmoviesapp.util;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.abora.popularmoviesapp.ui.MyApp;
+import com.abora.popularmoviesapp.ui.MyApplication;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;
@@ -33,7 +33,7 @@ public class MyPreference {
     private SharedPreferences preferences;
 
     public MyPreference(Gson gson) {
-        preferences = MyApp.getContext().getSharedPreferences("OpenCart", Context.MODE_PRIVATE);
+        preferences = MyApplication.getContext().getSharedPreferences("OpenCart", Context.MODE_PRIVATE);
         this.gson = gson;
         editor = preferences.edit();
         editor.apply();
