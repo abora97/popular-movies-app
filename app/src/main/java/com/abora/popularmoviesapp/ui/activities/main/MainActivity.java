@@ -1,11 +1,10 @@
 package com.abora.popularmoviesapp.ui.activities.main;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 import com.abora.popularmoviesapp.R;
 import com.abora.popularmoviesapp.ui.activities.base.BaseActivity;
+import com.abora.popularmoviesapp.ui.fragment.movie.MoviesFragment;
 
 public class MainActivity extends BaseActivity {
 
@@ -16,6 +15,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void initActivity(Bundle savedInstanceState) {
-        showToast("Hello");
+       // goToFragment(new MoviesFragment(),R.id.nav_host_fragment,"d");
     }
 }
